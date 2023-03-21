@@ -1,0 +1,37 @@
+$cWhite: white;
+$cBlack: black;
+
+#container {
+    text-align: center;
+
+    // "& .btn" の省略形 半角スペースを空けたい場合は&省略可
+    .btn {
+
+    }
+}
+
+.btn {
+    background-color: $cWhite;
+    color: $cBlack;
+    border: 1px solid $cBlack;
+    /* 枠の内側 */
+    padding: 10px 40px;
+    /* 枠の外側 */
+    margin: 50px 0;
+    font-weight: 600; 
+    cursor: pointer;
+    transition: all 0.3s;
+
+    // nesting
+    &:hover {
+        background-color: $cBlack;
+        color: $cWhite;
+    }
+    &-cube {
+        background-color: $cBlack;
+
+        & .inner {
+            background-color: $cBlack;
+        }
+    }
+}
