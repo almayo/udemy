@@ -1,0 +1,26 @@
+.parent {
+    color: blue;
+    font-weight: 600;
+}
+
+/* https://qiita.com/ryokkkke/items/ec1ca2baebe4a984f7a6 */
+
+/* 0.0.1 */
+span {
+    color: purple;
+}
+
+/* 0.1.0 */
+.cls {
+    color: orange;
+}
+
+/* 1.0.0 */
+#first {
+    color: magenta;
+}
+
+/* 0.1.1 */
+.parent span {
+    color: red;
+}
