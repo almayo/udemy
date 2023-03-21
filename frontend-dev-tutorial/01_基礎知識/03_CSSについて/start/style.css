@@ -1,0 +1,27 @@
+body {
+    /* インライン要素の中央揃え*/
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    /* ブロック要素の中央揃え*/
+    margin: 0 auto;
+    width: 100px;
+    height: 400px;
+    background-color: magenta;
+}
+
+.cls {
+    display: inline-block;
+    /* ブロック要素の中央揃え*/
+    margin: 0 auto;
+    width: 100px;
+    height: 400px;
+    background-color: gray;
+}
+
+/*
+詳細度
+tag < class < id
+*/
