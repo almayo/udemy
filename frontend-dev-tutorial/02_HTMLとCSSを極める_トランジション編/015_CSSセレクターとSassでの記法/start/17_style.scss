@@ -1,0 +1,23 @@
+.parent {
+    color: blue;
+
+    // & .element    parent内のelementクラスをもつ要素
+    // & > .element  parentの子要素内のelementクラスをもつ要素
+    & > .element {
+        color: purple;
+        
+        // & .second-child  element内のsecond-childのclassをもつ要素
+        // &.second-child   elementとsecond-child両方のclassをもつ要素
+        &.second-child {
+            color: black;
+        }
+    }
+}
+
+.element {
+    color: red;
+}
+
+// .child {
+//     color: purple;
+// }
